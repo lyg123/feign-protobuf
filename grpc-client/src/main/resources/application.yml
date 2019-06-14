@@ -1,5 +1,5 @@
 server:
-  port: 9091
+  port: 9094
 
 #management.security.enabled: false
 
@@ -12,4 +12,4 @@ eureka:
 
 spring:
   application:
-    name: client
+    name: grpc-client

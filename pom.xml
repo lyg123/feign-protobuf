@@ -22,6 +22,12 @@
         <module>client</module>
         <module>server</module>
         <module>proto-dto</module>
+        <module>registry-center</module>
+        <module>user-common</module>
+        <module>common-dto</module>
+        <module>grpc-dto</module>
+        <module>grpc-client</module>
+        <module>grpc-user-service</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -30,40 +36,12 @@
         <spring-cloud.version>Finchley.SR1</spring-cloud.version>
     </properties>
 
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-consul-discovery</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-openfeign</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <optional>true</optional>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
-
-
-    </dependencies>
-
     <dependencyManagement>
         <dependencies>
             <dependency>
                 <groupId>com.google.protobuf</groupId>
                 <artifactId>protobuf-java</artifactId>
-                <version>3.5.1</version>
+                <version>3.8.0</version>
             </dependency>
 
             <dependency>
