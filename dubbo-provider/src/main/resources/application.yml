@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: user-dubbo-provider
+dubbo:
+  protocol:
+    name: dubbo
+    port: 12345
+  registry:
+    address: N/A
+
+
+
