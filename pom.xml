@@ -28,6 +28,9 @@
         <module>grpc-dto</module>
         <module>grpc-client</module>
         <module>grpc-user-service</module>
+        <module>dubbo-dto</module>
+        <module>dubbo-provider</module>
+        <module>dubbo-consumer</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
